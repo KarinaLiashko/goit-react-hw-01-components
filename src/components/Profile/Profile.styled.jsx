@@ -5,6 +5,7 @@ export const ProfileContainer = styled.div`
   padding: 15px;
   width: 244px;
   border-radius: 4px;
+  box-shadow: 0px 0px 15px -2px rgba(66, 68, 90, 1);
   `;
 
 export const Description = styled.div`

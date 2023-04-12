@@ -8,10 +8,8 @@ export const Item = styled.li`
   list-style: none;
   width: 150px;
   padding: 10px;
-  border: 1px solid #000000;
-  border-radius: 5px;
   background-color: #fff;
-  box-shadow: 4px 2px 2px #7b848a;
+  box-shadow: 0px 0px 15px -2px rgba(66, 68, 90, 1);
 `;
 
 export const Avatar = styled.img`
@@ -29,7 +27,7 @@ export const Status = styled.span`
   height: 15px;
   border-radius: 50%;
   background-color: ${props => {
-    return props.isOnline ? 'green' : 'red';
+    return props.isOnline ? 'green' : 'red'
     // switch (props.isOnline) {
     //   case true:
     //     return 'green';
@@ -38,5 +36,5 @@ export const Status = styled.span`
     //   default:
     //     return 'black';
     }
-  }};
+  }
 `;
